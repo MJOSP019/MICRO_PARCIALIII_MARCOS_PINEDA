@@ -1,0 +1,81 @@
+****************************************
+Report : constraint
+        -all_violators
+Design : alu_sync_top
+Version: Y-2026.03-SP2
+Date   : Mon Oct 26 20:19:22 2026
+****************************************
+
+   late_timing
+   -----------
+
+Endpoint                         Path Delay     Path Required       CRP    Slack Group    Scenario
+----------------------------------------------------------------------------------------------------------
+Result_out_reg_0_/D (DFFRBQX1TAS7)
+                                  69.99 f        67.51           0.00    -2.48   REGREG   func_typ
+Result_out_reg_5_/D (DFFRBQX2TAS7)
+                                  70.55 r        68.10           0.00    -2.44   REGREG   func_typ
+Result_out_reg_3_/D (DFFRBQX2TAS7)
+                                  70.49 r        68.11           0.00    -2.38   REGREG   func_typ
+Result_out_reg_8_/D (DFFRBQX4TAS7)
+                                  70.56 r        68.18           0.00    -2.38   REGREG   func_typ
+Result_out_reg_11_/D (DFFRBQX4TAS7)
+                                  70.00 f        67.74           0.00    -2.26   REGREG   func_typ
+Result_out_reg_1_/D (DFFRBQX2TAS7)
+                                  71.13 r        69.03           0.00    -2.10   REGREG   func_typ
+Result_out_reg_2_/D (DFFRBQX1TAS7)
+                                  69.65 f        67.63           0.00    -2.02   REGREG   func_typ
+Result_out_reg_15_/D (DFFRBQX1TAS7)
+                                  69.26 r        67.32           0.00    -1.94   REGREG   func_typ
+Flags_out_reg_2_/D (DFFRBQX2TAS7)
+                                  74.65 r        73.43           0.00    -1.22   REGREG   func_typ
+Flags_out_reg_3_/D (DFFRBQX1TAS7)
+                                  69.26 r        68.39           0.00    -0.86   REGREG   func_typ
+
+   early_timing
+   -----------
+
+Endpoint                         Path Delay     Path Required       CRP    Slack Group    Scenario
+----------------------------------------------------------------------------------------------------------
+reg_A_reg_8_/D (DFFRBQX1TAS7)      5.30 r         5.55           0.00    -0.26   INREG    func_typ
+reg_A_reg_10_/D (DFFRBQX4TAS7)     5.30 r         5.54           0.00    -0.24   INREG    func_typ
+
+Information: Activity for scenario func_typ was cached, no propagation required. (POW-005)
+   Mode: func Corner: typ
+   Scenario: func_typ
+   max_transition                                                              
+                             Required        Actual                            
+   Net                      Transition     Transition        Slack  Violation  
+  ---------------------------------------------------------------------------
+   alu_inst/div_inst/n4333      8.82           7.88           0.95  (MET)      
+
+  ---------------------------------------------------------------------------
+   Number of max_transition violation(s): 0
+
+   Mode: func Corner: typ
+   Scenario: func_typ
+   max_capacitance                                                             
+                             Required        Actual                            
+   Net                      Capacitance    Capacitance       Slack  Violation  
+  ---------------------------------------------------------------------------
+   alu_inst/ropt_20             0.10           0.11          -0.00  (VIOLATED) 
+     PIN : alu_inst/ropt_inst_6646/O
+                                0.10           0.11          -0.00  (VIOLATED) 
+
+  ---------------------------------------------------------------------------
+   Number of max_capacitance violation(s): 1
+
+
+   Mode: func Corner: typ
+   Scenario: func_typ
+  ---------------------------------------------------------------------------
+   Number of min_capacitance violation(s): 0
+
+  Mode: func
+  Corner: typ
+  Scenario: func_typ
+
+  ---------------------------------------------------------------------------
+   Number of min_pulse_width violation(s): 0
+   Total number of violation(s): 1
+1

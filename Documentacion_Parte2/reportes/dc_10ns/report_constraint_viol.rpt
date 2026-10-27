@@ -1,0 +1,38 @@
+ 
+****************************************
+Report : constraint
+        -all_violators
+Design : alu_sync_top
+Version: X-2025.06-SP5-5
+Date   : Mon Oct 26 19:11:30 2026
+****************************************
+
+
+   max_delay/setup ('REGREG' group)
+
+                             Required        Actual
+   Endpoint                 Path Delay     Path Delay        Slack
+   -----------------------------------------------------------------
+   Flags_out_reg[2]/D           8.27          54.70 r       -46.43  (VIOLATED)
+   Result_out_reg[4]/D          8.29          53.27 r       -44.98  (VIOLATED)
+   Result_out_reg[0]/D          8.29          53.23 r       -44.93  (VIOLATED)
+   Result_out_reg[13]/D         8.28          53.20 r       -44.93  (VIOLATED)
+   Result_out_reg[14]/D         8.32          53.23 r       -44.91  (VIOLATED)
+   Result_out_reg[1]/D          8.33          53.21 r       -44.88  (VIOLATED)
+   Result_out_reg[11]/D         8.33          53.14 r       -44.80  (VIOLATED)
+   Result_out_reg[8]/D          8.28          53.05 r       -44.77  (VIOLATED)
+   Result_out_reg[2]/D          8.34          53.11 r       -44.77  (VIOLATED)
+   Result_out_reg[10]/D         8.28          52.96 r       -44.67  (VIOLATED)
+   Result_out_reg[9]/D          8.32          52.97 r       -44.65  (VIOLATED)
+   Result_out_reg[12]/D         8.32          52.91 r       -44.58  (VIOLATED)
+   Result_out_reg[6]/D          8.33          52.90 r       -44.57  (VIOLATED)
+   Result_out_reg[7]/D          8.29          52.84 r       -44.56  (VIOLATED)
+   Result_out_reg[3]/D          8.34          52.84 r       -44.51  (VIOLATED)
+   Result_out_reg[5]/D          8.29          52.78 r       -44.49  (VIOLATED)
+   Flags_out_reg[3]/D           8.23          51.95 r       -43.72  (VIOLATED)
+   Result_out_reg[15]/D         8.26          51.95 r       -43.69  (VIOLATED)
+   Flags_out_reg[0]/D           8.31          17.03 r        -8.72  (VIOLATED)
+   Flags_out_reg[1]/D           8.35          15.55 r        -7.19  (VIOLATED)
+
+
+1

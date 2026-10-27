@@ -1,0 +1,74 @@
+****************************************
+Report : constraint
+        -all_violators
+Design : alu_sync_top
+Version: Y-2026.03-SP2
+Date   : Mon Oct 26 20:19:42 2026
+****************************************
+
+   late_timing
+   -----------
+
+Endpoint                         Path Delay     Path Required       CRP    Slack Group    Scenario
+----------------------------------------------------------------------------------------------------------
+Result_out_reg_0_/D (DFFRBQX1TAS7)
+                                  70.02 f        67.43           0.00    -2.59   REGREG   func_typ
+Result_out_reg_11_/D (DFFRBQX4TAS7)
+                                  69.97 f        67.63           0.00    -2.34   REGREG   func_typ
+Result_out_reg_8_/D (DFFRBQX4TAS7)
+                                  70.40 r        68.09           0.00    -2.31   REGREG   func_typ
+Result_out_reg_3_/D (DFFRBQX2TAS7)
+                                  70.30 r        68.04           0.00    -2.25   REGREG   func_typ
+Result_out_reg_5_/D (DFFRBQX2TAS7)
+                                  70.24 r        68.03           0.00    -2.21   REGREG   func_typ
+Result_out_reg_1_/D (DFFRBQX2TAS7)
+                                  70.92 r        68.85           0.00    -2.07   REGREG   func_typ
+Result_out_reg_2_/D (DFFRBQX1TAS7)
+                                  69.52 f        67.54           0.00    -1.98   REGREG   func_typ
+Result_out_reg_15_/D (DFFRBQX1TAS7)
+                                  69.09 r        67.24           0.00    -1.85   REGREG   func_typ
+Flags_out_reg_2_/D (DFFRBQX2TAS7)
+                                  74.37 r        73.28           0.00    -1.09   REGREG   func_typ
+Flags_out_reg_3_/D (DFFRBQX1TAS7)
+                                  68.35 f        67.48           0.00    -0.87   REGREG   func_typ
+
+   early_timing
+   -----------
+
+Endpoint                         Path Delay     Path Required       CRP    Slack Group    Scenario
+----------------------------------------------------------------------------------------------------------
+reg_A_reg_8_/D (DFFRBQX1TAS7)      5.30 r         5.47           0.00    -0.18   INREG    func_typ
+reg_A_reg_10_/D (DFFRBQX4TAS7)     5.30 r         5.46           0.00    -0.16   INREG    func_typ
+Flags_out_reg_2_/RB (DFFRBQX2TAS7)
+                                  15.50 r        15.52           0.00    -0.02   INREG    func_typ
+
+   Mode: func Corner: typ
+   Scenario: func_typ
+   max_transition                                                              
+                             Required        Actual                            
+   Net                      Transition     Transition        Slack  Violation  
+  ---------------------------------------------------------------------------
+   alu_inst/div_inst/n4333      8.82           7.58           1.25  (MET)      
+
+  ---------------------------------------------------------------------------
+   Number of max_transition violation(s): 0
+
+   Mode: func Corner: typ
+   Scenario: func_typ
+  ---------------------------------------------------------------------------
+   Number of max_capacitance violation(s): 0
+
+
+   Mode: func Corner: typ
+   Scenario: func_typ
+  ---------------------------------------------------------------------------
+   Number of min_capacitance violation(s): 0
+
+  Mode: func
+  Corner: typ
+  Scenario: func_typ
+
+  ---------------------------------------------------------------------------
+   Number of min_pulse_width violation(s): 0
+   Total number of violation(s): 0
+1

@@ -1,0 +1,54 @@
+ 
+****************************************
+check_design summary:
+Version:     X-2025.06-SP5-5
+Date:        Mon Oct 26 19:03:32 2026
+****************************************
+
+                   Name                                            Total
+--------------------------------------------------------------------------------
+Inputs/Outputs                                                      1
+    Shorted outputs (LINT-31)                                       1
+
+Cells                                                               1
+    Cells do not drive (LINT-1)                                     1
+
+Tristate                                                           32
+    Single tristate driver drives an input pin (LINT-63)           32
+--------------------------------------------------------------------------------
+
+Warning: In design 'divider_hw_WIDTH16', cell 'B_2' does not drive any nets. (LINT-1)
+Warning: In design 'alu_plus_WIDTH16', output port 'Result[15]' is connected directly to output port 'Flags[3]'. (LINT-31)
+Warning: Net 'alu_inst/or_res[0]' has a single tri-state driver.  (LINT-63)
+Warning: Net 'alu_inst/or_res[1]' has a single tri-state driver.  (LINT-63)
+Warning: Net 'alu_inst/or_res[2]' has a single tri-state driver.  (LINT-63)
+Warning: Net 'alu_inst/or_res[3]' has a single tri-state driver.  (LINT-63)
+Warning: Net 'alu_inst/or_res[4]' has a single tri-state driver.  (LINT-63)
+Warning: Net 'alu_inst/or_res[5]' has a single tri-state driver.  (LINT-63)
+Warning: Net 'alu_inst/or_res[6]' has a single tri-state driver.  (LINT-63)
+Warning: Net 'alu_inst/or_res[7]' has a single tri-state driver.  (LINT-63)
+Warning: Net 'alu_inst/or_res[8]' has a single tri-state driver.  (LINT-63)
+Warning: Net 'alu_inst/or_res[9]' has a single tri-state driver.  (LINT-63)
+Warning: Net 'alu_inst/or_res[10]' has a single tri-state driver.  (LINT-63)
+Warning: Net 'alu_inst/or_res[11]' has a single tri-state driver.  (LINT-63)
+Warning: Net 'alu_inst/or_res[12]' has a single tri-state driver.  (LINT-63)
+Warning: Net 'alu_inst/or_res[13]' has a single tri-state driver.  (LINT-63)
+Warning: Net 'alu_inst/or_res[14]' has a single tri-state driver.  (LINT-63)
+Warning: Net 'alu_inst/or_res[15]' has a single tri-state driver.  (LINT-63)
+Warning: Net 'alu_inst/and_res[0]' has a single tri-state driver.  (LINT-63)
+Warning: Net 'alu_inst/and_res[1]' has a single tri-state driver.  (LINT-63)
+Warning: Net 'alu_inst/and_res[2]' has a single tri-state driver.  (LINT-63)
+Warning: Net 'alu_inst/and_res[3]' has a single tri-state driver.  (LINT-63)
+Warning: Net 'alu_inst/and_res[4]' has a single tri-state driver.  (LINT-63)
+Warning: Net 'alu_inst/and_res[5]' has a single tri-state driver.  (LINT-63)
+Warning: Net 'alu_inst/and_res[6]' has a single tri-state driver.  (LINT-63)
+Warning: Net 'alu_inst/and_res[7]' has a single tri-state driver.  (LINT-63)
+Warning: Net 'alu_inst/and_res[8]' has a single tri-state driver.  (LINT-63)
+Warning: Net 'alu_inst/and_res[9]' has a single tri-state driver.  (LINT-63)
+Warning: Net 'alu_inst/and_res[10]' has a single tri-state driver.  (LINT-63)
+Warning: Net 'alu_inst/and_res[11]' has a single tri-state driver.  (LINT-63)
+Warning: Net 'alu_inst/and_res[12]' has a single tri-state driver.  (LINT-63)
+Warning: Net 'alu_inst/and_res[13]' has a single tri-state driver.  (LINT-63)
+Warning: Net 'alu_inst/and_res[14]' has a single tri-state driver.  (LINT-63)
+Warning: Net 'alu_inst/and_res[15]' has a single tri-state driver.  (LINT-63)
+1

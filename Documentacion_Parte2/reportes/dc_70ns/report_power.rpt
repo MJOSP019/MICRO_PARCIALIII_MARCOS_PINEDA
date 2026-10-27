@@ -1,0 +1,61 @@
+ 
+****************************************
+Report : power
+        -analysis_effort low
+Design : alu_sync_top
+Version: X-2025.06-SP5-5
+Date   : Mon Oct 26 19:17:42 2026
+****************************************
+
+
+Library(s) Used:
+
+    M31LLSC750GL150MS_25CTT1P8_ctyp_nldm (File: /home/mpineda/libs/M31LLSC750GL150MS_00.01.000/nldm_db/M31LLSC750GL150MS_25CTT1P8_ctyp_nldm.db)
+
+
+Operating Conditions: 25CTT1P8   Library: M31LLSC750GL150MS_25CTT1P8_ctyp_nldm
+Wire Load Model Mode: enclosed
+
+Design        Wire Load Model            Library
+------------------------------------------------
+alu_sync_top           MW0K              M31LLSC750GL150MS_25CTT1P8_ctyp_nldm
+alu_plus_WIDTH16       MW0K              M31LLSC750GL150MS_25CTT1P8_ctyp_nldm
+prefix_adder_WIDTH16   MW0K              M31LLSC750GL150MS_25CTT1P8_ctyp_nldm
+divider_hw_WIDTH16     MW0K              M31LLSC750GL150MS_25CTT1P8_ctyp_nldm
+
+
+Global Operating Voltage = 1.8  
+Power-specific unit information :
+    Voltage Units = 1V
+    Capacitance Units = 1.000000pf
+    Time Units = 1ns
+    Dynamic Power Units = 1mW    (derived from V,C,T units)
+    Leakage Power Units = 1pW
+
+
+Attributes
+----------
+i - Including register clock pin internal power
+
+
+  Cell Internal Power  = 141.3896 uW   (60%)
+  Net Switching Power  =  93.4673 uW   (40%)
+                         ---------
+Total Dynamic Power    = 234.8569 uW  (100%)
+
+Cell Leakage Power     =   2.2625 nW
+
+
+                 Internal         Switching           Leakage            Total
+Power Group      Power            Power               Power              Power   (   %    )  Attrs
+--------------------------------------------------------------------------------------------------
+io_pad             0.0000            0.0000            0.0000            0.0000  (   0.00%)
+memory             0.0000            0.0000            0.0000            0.0000  (   0.00%)
+black_box          0.0000            0.0000            0.0000            0.0000  (   0.00%)
+clock_network  3.1436e-02            0.0000            0.0000        3.1436e-02  (  13.39%)  i
+register       3.6640e-03        3.6205e-03           69.3848        7.2846e-03  (   3.10%)
+sequential         0.0000            0.0000            0.0000            0.0000  (   0.00%)
+combinational      0.1063        8.9847e-02        2.1931e+03            0.1961  (  83.51%)
+--------------------------------------------------------------------------------------------------
+Total              0.1414 mW     9.3467e-02 mW     2.2625e+03 pW         0.2349 mW
+1

@@ -1,0 +1,21 @@
+Information: Activity for scenario func_typ was cached, no propagation required. (POW-005)
+****************************************
+Report : clock timing
+        -type skew
+        -nworst 1
+        -setup
+Design : alu_sync_top
+Version: Y-2026.03-SP2
+Date   : Mon Oct 26 20:19:22 2026
+****************************************
+
+  Mode: func
+  Clock: clk
+
+  Clock Pin                                          Latency      Skew             Corner
+---------------------------------------------------------------------------------------------------
+  reg_A_reg_9_/CK                                       6.34              rp-+        typ
+  Flags_out_reg_0_/CK                                   3.04      3.30    rp-+        typ
+
+---------------------------------------------------------------------------------------------------
+1

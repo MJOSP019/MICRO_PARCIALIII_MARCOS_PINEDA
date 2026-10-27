@@ -1,0 +1,536 @@
+ 
+****************************************
+Report : timing
+        -path full
+        -delay min
+        -max_paths 5
+Design : alu_sync_top
+Version: X-2025.06-SP5-5
+Date   : Mon Oct 26 19:11:30 2026
+****************************************
+
+Operating Conditions: 25CTT1P8   Library: M31LLSC750GL150MS_25CTT1P8_ctyp_nldm
+Wire Load Model Mode: enclosed
+
+  Startpoint: A_in[3] (input port clocked by clk)
+  Endpoint: reg_A_reg[3]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: INREG
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  alu_sync_top       MW0K                  M31LLSC750GL150MS_25CTT1P8_ctyp_nldm
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.50       0.50
+  input external delay                     0.10       0.60 r
+  A_in[3] (in)                             0.00       0.60 r
+  reg_A_reg[3]/D (DFFRBQX1TAS7)            0.00       0.60 r
+  data arrival time                                   0.60
+
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.50       0.50
+  clock uncertainty                        0.05       0.55
+  reg_A_reg[3]/CK (DFFRBQX1TAS7)           0.00       0.55 r
+  library hold time                       -0.06       0.49
+  data required time                                  0.49
+  -----------------------------------------------------------
+  data required time                                  0.49
+  data arrival time                                  -0.60
+  -----------------------------------------------------------
+  slack (MET)                                         0.11
+
+
+  Startpoint: A_in[2] (input port clocked by clk)
+  Endpoint: reg_A_reg[2]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: INREG
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  alu_sync_top       MW0K                  M31LLSC750GL150MS_25CTT1P8_ctyp_nldm
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.50       0.50
+  input external delay                     0.10       0.60 r
+  A_in[2] (in)                             0.00       0.60 r
+  reg_A_reg[2]/D (DFFRBQX1TAS7)            0.00       0.60 r
+  data arrival time                                   0.60
+
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.50       0.50
+  clock uncertainty                        0.05       0.55
+  reg_A_reg[2]/CK (DFFRBQX1TAS7)           0.00       0.55 r
+  library hold time                       -0.06       0.49
+  data required time                                  0.49
+  -----------------------------------------------------------
+  data required time                                  0.49
+  data arrival time                                  -0.60
+  -----------------------------------------------------------
+  slack (MET)                                         0.11
+
+
+  Startpoint: ALUControl_in[2]
+              (input port clocked by clk)
+  Endpoint: reg_ALUControl_reg[2]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: INREG
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  alu_sync_top       MW0K                  M31LLSC750GL150MS_25CTT1P8_ctyp_nldm
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.50       0.50
+  input external delay                                    0.10       0.60 r
+  ALUControl_in[2] (in)                                   0.00       0.60 r
+  reg_ALUControl_reg[2]/D (DFFRBQX1TAS7)                  0.00       0.60 r
+  data arrival time                                                  0.60
+
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.50       0.50
+  clock uncertainty                                       0.05       0.55
+  reg_ALUControl_reg[2]/CK (DFFRBQX1TAS7)                 0.00       0.55 r
+  library hold time                                      -0.06       0.49
+  data required time                                                 0.49
+  --------------------------------------------------------------------------
+  data required time                                                 0.49
+  data arrival time                                                 -0.60
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.11
+
+
+  Startpoint: ALUControl_in[1]
+              (input port clocked by clk)
+  Endpoint: reg_ALUControl_reg[1]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: INREG
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  alu_sync_top       MW0K                  M31LLSC750GL150MS_25CTT1P8_ctyp_nldm
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.50       0.50
+  input external delay                                    0.10       0.60 r
+  ALUControl_in[1] (in)                                   0.00       0.60 r
+  reg_ALUControl_reg[1]/D (DFFRBQX1TAS7)                  0.00       0.60 r
+  data arrival time                                                  0.60
+
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.50       0.50
+  clock uncertainty                                       0.05       0.55
+  reg_ALUControl_reg[1]/CK (DFFRBQX1TAS7)                 0.00       0.55 r
+  library hold time                                      -0.06       0.49
+  data required time                                                 0.49
+  --------------------------------------------------------------------------
+  data required time                                                 0.49
+  data arrival time                                                 -0.60
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.11
+
+
+  Startpoint: ALUControl_in[0]
+              (input port clocked by clk)
+  Endpoint: reg_ALUControl_reg[0]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: INREG
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  alu_sync_top       MW0K                  M31LLSC750GL150MS_25CTT1P8_ctyp_nldm
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.50       0.50
+  input external delay                                    0.10       0.60 r
+  ALUControl_in[0] (in)                                   0.00       0.60 r
+  reg_ALUControl_reg[0]/D (DFFRBQX1TAS7)                  0.00       0.60 r
+  data arrival time                                                  0.60
+
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.50       0.50
+  clock uncertainty                                       0.05       0.55
+  reg_ALUControl_reg[0]/CK (DFFRBQX1TAS7)                 0.00       0.55 r
+  library hold time                                      -0.06       0.49
+  data required time                                                 0.49
+  --------------------------------------------------------------------------
+  data required time                                                 0.49
+  data arrival time                                                 -0.60
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.11
+
+
+  Startpoint: Result_out_reg[13]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: Result_out[13]
+            (output port clocked by clk)
+  Path Group: REGOUT
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  alu_sync_top       MW0K                  M31LLSC750GL150MS_25CTT1P8_ctyp_nldm
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.50       0.50
+  Result_out_reg[13]/CK (DFFRBQX1TAS7)                    0.00       0.50 r
+  Result_out_reg[13]/Q (DFFRBQX1TAS7)                     1.59       2.09 f
+  Result_out[13] (out)                                    0.00       2.09 f
+  data arrival time                                                  2.09
+
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.50       0.50
+  clock uncertainty                                       0.05       0.55
+  output external delay                                  -0.10       0.45
+  data required time                                                 0.45
+  --------------------------------------------------------------------------
+  data required time                                                 0.45
+  data arrival time                                                 -2.09
+  --------------------------------------------------------------------------
+  slack (MET)                                                        1.64
+
+
+  Startpoint: Result_out_reg[10]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: Result_out[10]
+            (output port clocked by clk)
+  Path Group: REGOUT
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  alu_sync_top       MW0K                  M31LLSC750GL150MS_25CTT1P8_ctyp_nldm
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.50       0.50
+  Result_out_reg[10]/CK (DFFRBQX1TAS7)                    0.00       0.50 r
+  Result_out_reg[10]/Q (DFFRBQX1TAS7)                     1.59       2.09 f
+  Result_out[10] (out)                                    0.00       2.09 f
+  data arrival time                                                  2.09
+
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.50       0.50
+  clock uncertainty                                       0.05       0.55
+  output external delay                                  -0.10       0.45
+  data required time                                                 0.45
+  --------------------------------------------------------------------------
+  data required time                                                 0.45
+  data arrival time                                                 -2.09
+  --------------------------------------------------------------------------
+  slack (MET)                                                        1.64
+
+
+  Startpoint: Result_out_reg[8]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: Result_out[8]
+            (output port clocked by clk)
+  Path Group: REGOUT
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  alu_sync_top       MW0K                  M31LLSC750GL150MS_25CTT1P8_ctyp_nldm
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.50       0.50
+  Result_out_reg[8]/CK (DFFRBQX1TAS7)      0.00       0.50 r
+  Result_out_reg[8]/Q (DFFRBQX1TAS7)       1.59       2.09 f
+  Result_out[8] (out)                      0.00       2.09 f
+  data arrival time                                   2.09
+
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.50       0.50
+  clock uncertainty                        0.05       0.55
+  output external delay                   -0.10       0.45
+  data required time                                  0.45
+  -----------------------------------------------------------
+  data required time                                  0.45
+  data arrival time                                  -2.09
+  -----------------------------------------------------------
+  slack (MET)                                         1.64
+
+
+  Startpoint: Flags_out_reg[0]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: Flags_out[0]
+            (output port clocked by clk)
+  Path Group: REGOUT
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  alu_sync_top       MW0K                  M31LLSC750GL150MS_25CTT1P8_ctyp_nldm
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.50       0.50
+  Flags_out_reg[0]/CK (DFFRBQX1TAS7)       0.00       0.50 r
+  Flags_out_reg[0]/Q (DFFRBQX1TAS7)        1.59       2.09 f
+  Flags_out[0] (out)                       0.00       2.09 f
+  data arrival time                                   2.09
+
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.50       0.50
+  clock uncertainty                        0.05       0.55
+  output external delay                   -0.10       0.45
+  data required time                                  0.45
+  -----------------------------------------------------------
+  data required time                                  0.45
+  data arrival time                                  -2.09
+  -----------------------------------------------------------
+  slack (MET)                                         1.64
+
+
+  Startpoint: Flags_out_reg[3]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: Flags_out[3]
+            (output port clocked by clk)
+  Path Group: REGOUT
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  alu_sync_top       MW0K                  M31LLSC750GL150MS_25CTT1P8_ctyp_nldm
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.50       0.50
+  Flags_out_reg[3]/CK (DFFRBQX2TAS7)       0.00       0.50 r
+  Flags_out_reg[3]/Q (DFFRBQX2TAS7)        1.61       2.11 f
+  Flags_out[3] (out)                       0.00       2.11 f
+  data arrival time                                   2.11
+
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.50       0.50
+  clock uncertainty                        0.05       0.55
+  output external delay                   -0.10       0.45
+  data required time                                  0.45
+  -----------------------------------------------------------
+  data required time                                  0.45
+  data arrival time                                  -2.11
+  -----------------------------------------------------------
+  slack (MET)                                         1.66
+
+
+  Startpoint: reg_ALUControl_reg[1]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: Flags_out_reg[0]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: REGREG
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  alu_sync_top       MW0K                  M31LLSC750GL150MS_25CTT1P8_ctyp_nldm
+  alu_plus_WIDTH16   MW0K                  M31LLSC750GL150MS_25CTT1P8_ctyp_nldm
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.50       0.50
+  reg_ALUControl_reg[1]/CK (DFFRBQX1TAS7)                 0.00       0.50 r
+  reg_ALUControl_reg[1]/Q (DFFRBQX1TAS7)                  1.45       1.95 f
+  alu_inst/ALUControl[1] (alu_plus_WIDTH16)               0.00       1.95 f
+  alu_inst/U81/O (CLKINVX1TAS7)                           0.60       2.55 r
+  alu_inst/U83/O (AND2X1TAS7)                             0.78       3.33 r
+  alu_inst/Flags[0] (alu_plus_WIDTH16)                    0.00       3.33 r
+  Flags_out_reg[0]/D (DFFRBQX1TAS7)                       0.00       3.33 r
+  data arrival time                                                  3.33
+
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.50       0.50
+  clock uncertainty                                       0.05       0.55
+  Flags_out_reg[0]/CK (DFFRBQX1TAS7)                      0.00       0.55 r
+  library hold time                                      -0.14       0.41
+  data required time                                                 0.41
+  --------------------------------------------------------------------------
+  data required time                                                 0.41
+  data arrival time                                                 -3.33
+  --------------------------------------------------------------------------
+  slack (MET)                                                        2.92
+
+
+  Startpoint: reg_ALUControl_reg[1]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: Flags_out_reg[1]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: REGREG
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  alu_sync_top       MW0K                  M31LLSC750GL150MS_25CTT1P8_ctyp_nldm
+  alu_plus_WIDTH16   MW0K                  M31LLSC750GL150MS_25CTT1P8_ctyp_nldm
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.50       0.50
+  reg_ALUControl_reg[1]/CK (DFFRBQX1TAS7)                 0.00       0.50 r
+  reg_ALUControl_reg[1]/Q (DFFRBQX1TAS7)                  1.45       1.95 f
+  alu_inst/ALUControl[1] (alu_plus_WIDTH16)               0.00       1.95 f
+  alu_inst/U81/O (CLKINVX1TAS7)                           0.60       2.55 r
+  alu_inst/U82/O (AND2X1TAS7)                             0.78       3.33 r
+  alu_inst/Flags[1] (alu_plus_WIDTH16)                    0.00       3.33 r
+  Flags_out_reg[1]/D (DFFRBQX4TAS7)                       0.00       3.33 r
+  data arrival time                                                  3.33
+
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.50       0.50
+  clock uncertainty                                       0.05       0.55
+  Flags_out_reg[1]/CK (DFFRBQX4TAS7)                      0.00       0.55 r
+  library hold time                                      -0.16       0.39
+  data required time                                                 0.39
+  --------------------------------------------------------------------------
+  data required time                                                 0.39
+  data arrival time                                                 -3.33
+  --------------------------------------------------------------------------
+  slack (MET)                                                        2.94
+
+
+  Startpoint: reg_ALUControl_reg[2]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: Result_out_reg[11]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: REGREG
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  alu_sync_top       MW0K                  M31LLSC750GL150MS_25CTT1P8_ctyp_nldm
+  alu_plus_WIDTH16   MW0K                  M31LLSC750GL150MS_25CTT1P8_ctyp_nldm
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.50       0.50
+  reg_ALUControl_reg[2]/CK (DFFRBQX1TAS7)                 0.00       0.50 r
+  reg_ALUControl_reg[2]/Q (DFFRBQX1TAS7)                  1.38       1.88 f
+  alu_inst/ALUControl[2] (alu_plus_WIDTH16)               0.00       1.88 f
+  alu_inst/U60/O (NAND3B1X1TAS7)                          1.15       3.03 r
+  alu_inst/U233/O (NAND2B1X1TAS7)                         0.94       3.97 r
+  alu_inst/U220/O (NAND2X1TAS7)                           0.37       4.34 f
+  alu_inst/Result[11] (alu_plus_WIDTH16)                  0.00       4.34 f
+  Result_out_reg[11]/D (DFFRBQX4TAS7)                     0.00       4.34 f
+  data arrival time                                                  4.34
+
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.50       0.50
+  clock uncertainty                                       0.05       0.55
+  Result_out_reg[11]/CK (DFFRBQX4TAS7)                    0.00       0.55 r
+  library hold time                                      -0.63      -0.08
+  data required time                                                -0.08
+  --------------------------------------------------------------------------
+  data required time                                                -0.08
+  data arrival time                                                 -4.34
+  --------------------------------------------------------------------------
+  slack (MET)                                                        4.42
+
+
+  Startpoint: reg_ALUControl_reg[2]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: Result_out_reg[0]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: REGREG
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  alu_sync_top       MW0K                  M31LLSC750GL150MS_25CTT1P8_ctyp_nldm
+  alu_plus_WIDTH16   MW0K                  M31LLSC750GL150MS_25CTT1P8_ctyp_nldm
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.50       0.50
+  reg_ALUControl_reg[2]/CK (DFFRBQX1TAS7)                 0.00       0.50 r
+  reg_ALUControl_reg[2]/Q (DFFRBQX1TAS7)                  1.38       1.88 f
+  alu_inst/ALUControl[2] (alu_plus_WIDTH16)               0.00       1.88 f
+  alu_inst/U60/O (NAND3B1X1TAS7)                          1.15       3.03 r
+  alu_inst/U50/O (NAND2B1X1TAS7)                          0.83       3.86 r
+  alu_inst/U200/O (NAND3X1TAS7)                           0.47       4.32 f
+  alu_inst/Result[0] (alu_plus_WIDTH16)                   0.00       4.32 f
+  Result_out_reg[0]/D (DFFRBQX4TAS7)                      0.00       4.32 f
+  data arrival time                                                  4.32
+
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.50       0.50
+  clock uncertainty                                       0.05       0.55
+  Result_out_reg[0]/CK (DFFRBQX4TAS7)                     0.00       0.55 r
+  library hold time                                      -0.70      -0.15
+  data required time                                                -0.15
+  --------------------------------------------------------------------------
+  data required time                                                -0.15
+  data arrival time                                                 -4.32
+  --------------------------------------------------------------------------
+  slack (MET)                                                        4.47
+
+
+  Startpoint: reg_A_reg[15]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: Flags_out_reg[3]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: REGREG
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  alu_sync_top       MW0K                  M31LLSC750GL150MS_25CTT1P8_ctyp_nldm
+  divider_hw_WIDTH16 MW0K                  M31LLSC750GL150MS_25CTT1P8_ctyp_nldm
+  alu_plus_WIDTH16   MW0K                  M31LLSC750GL150MS_25CTT1P8_ctyp_nldm
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.50       0.50
+  reg_A_reg[15]/CK (DFFRBQX4TAS7)                         0.00       0.50 r
+  reg_A_reg[15]/Q (DFFRBQX4TAS7)                          2.07       2.57 f
+  alu_inst/A[15] (alu_plus_WIDTH16)                       0.00       2.57 f
+  alu_inst/div_inst/dividend[15] (divider_hw_WIDTH16)     0.00       2.57 f
+  alu_inst/div_inst/U308/O (INVX1TAS7)                    0.68       3.25 r
+  alu_inst/div_inst/U1655/O (OAI22X1TAS7)                 0.49       3.74 f
+  alu_inst/div_inst/remainder[15] (divider_hw_WIDTH16)
+                                                          0.00       3.74 f
+  alu_inst/U61/O (NAND2X1TAS7)                            0.43       4.18 r
+  alu_inst/U54/O (NAND2X1TAS7)                            0.41       4.59 f
+  alu_inst/Result[15] (alu_plus_WIDTH16)                  0.00       4.59 f
+  Flags_out_reg[3]/D (DFFRBQX2TAS7)                       0.00       4.59 f
+  data arrival time                                                  4.59
+
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.50       0.50
+  clock uncertainty                                       0.05       0.55
+  Flags_out_reg[3]/CK (DFFRBQX2TAS7)                      0.00       0.55 r
+  library hold time                                      -0.66      -0.11
+  data required time                                                -0.11
+  --------------------------------------------------------------------------
+  data required time                                                -0.11
+  data arrival time                                                 -4.59
+  --------------------------------------------------------------------------
+  slack (MET)                                                        4.70
+
+
+1

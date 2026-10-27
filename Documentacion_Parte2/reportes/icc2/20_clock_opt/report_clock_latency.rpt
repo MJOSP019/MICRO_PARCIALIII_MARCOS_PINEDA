@@ -1,0 +1,20 @@
+****************************************
+Report : clock timing
+        -type latency
+        -launch
+        -nworst 1
+        -setup
+Design : alu_sync_top
+Version: Y-2026.03-SP2
+Date   : Mon Oct 26 20:19:22 2026
+****************************************
+
+  Mode: func
+  Clock: clk
+
+                                                 --- Latency ---
+  Clock Pin                             Trans   Source   Offset  Network    Total            Corner
+---------------------------------------------------------------------------------------------------
+  Flags_out_reg_2_/CK                    0.64     0.50       --    11.01    11.51 rp-+          typ
+---------------------------------------------------------------------------------------------------
+1

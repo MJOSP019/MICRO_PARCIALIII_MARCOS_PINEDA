@@ -1,0 +1,105 @@
+****************************************
+Report : constraint
+        -all_violators
+Design : alu_sync_top
+Version: Y-2026.03-SP2
+Date   : Mon Oct 26 20:10:56 2026
+****************************************
+
+   late_timing
+   -----------
+
+Endpoint                         Path Delay     Path Required       CRP    Slack Group    Scenario
+----------------------------------------------------------------------------------------------------------
+Flags_out_reg_2_/D (DFFRBQX2TAS7)
+                                  72.30 r        62.50           0.00    -9.80   REGREG   func_typ
+Result_out_reg_1_/D (DFFRBQX1TAS7)
+                                  70.27 r        62.24           0.00    -8.02   REGREG   func_typ
+Result_out_reg_0_/D (DFFRBQX1TAS7)
+                                  70.02 r        62.28           0.00    -7.74   REGREG   func_typ
+Result_out_reg_7_/D (DFFRBQX1TAS7)
+                                  69.95 r        62.23           0.00    -7.73   REGREG   func_typ
+Result_out_reg_5_/D (DFFRBQX1TAS7)
+                                  69.95 r        62.28           0.00    -7.66   REGREG   func_typ
+Result_out_reg_10_/D (DFFRBQX1TAS7)
+                                  69.92 r        62.34           0.00    -7.58   REGREG   func_typ
+Result_out_reg_6_/D (DFFRBQX1TAS7)
+                                  69.88 r        62.33           0.00    -7.55   REGREG   func_typ
+Result_out_reg_3_/D (DFFRBQX1TAS7)
+                                  69.82 r        62.28           0.00    -7.53   REGREG   func_typ
+Result_out_reg_12_/D (DFFRBQX1TAS7)
+                                  69.83 r        62.35           0.00    -7.49   REGREG   func_typ
+Result_out_reg_8_/D (DFFRBQX1TAS7)
+                                  69.82 r        62.35           0.00    -7.47   REGREG   func_typ
+Result_out_reg_4_/D (DFFRBQX1TAS7)
+                                  69.82 r        62.37           0.00    -7.45   REGREG   func_typ
+Result_out_reg_9_/D (DFFRBQX1TAS7)
+                                  69.70 r        62.38           0.00    -7.32   REGREG   func_typ
+Result_out_reg_11_/D (DFFRBQX1TAS7)
+                                  69.66 r        62.34           0.00    -7.32   REGREG   func_typ
+Result_out_reg_14_/D (DFFRBQX1TAS7)
+                                  69.67 r        62.37           0.00    -7.30   REGREG   func_typ
+Result_out_reg_2_/D (DFFRBQX1TAS7)
+                                  69.36 r        62.33           0.00    -7.03   REGREG   func_typ
+Result_out_reg_13_/D (DFFRBQX1TAS7)
+                                  69.26 r        62.34           0.00    -6.92   REGREG   func_typ
+Result_out_reg_15_/D (DFFRBQX1TAS7)
+                                  68.45 r        62.31           0.00    -6.13   REGREG   func_typ
+Flags_out_reg_3_/D (DFFRBQX1TAS7)
+                                  68.45 r        62.31           0.00    -6.13   REGREG   func_typ
+
+   early_timing
+   -----------
+
+Endpoint                         Path Delay     Path Required       CRP    Slack Group    Scenario
+----------------------------------------------------------------------------------------------------------
+Flags_out_reg_1_/RB (DFFRBQX1TAS7)
+                                   4.04 r         4.27           0.00    -0.23   INREG    func_typ
+Flags_out_reg_0_/RB (DFFRBQX1TAS7)
+                                   4.04 r         4.27           0.00    -0.23   INREG    func_typ
+reg_ALUControl_reg_1_/RB (DFFRBQX1TAS7)
+                                   4.04 r         4.27           0.00    -0.23   INREG    func_typ
+reg_ALUControl_reg_0_/RB (DFFRBQX1TAS7)
+                                   4.04 r         4.25           0.00    -0.21   INREG    func_typ
+reg_B_reg_12_/RB (DFFRBQX2TAS7)    4.04 r         4.23           0.00    -0.20   INREG    func_typ
+reg_B_reg_11_/RB (DFFRBQX2TAS7)    4.04 r         4.23           0.00    -0.20   INREG    func_typ
+reg_A_reg_14_/RB (DFFRBQX2TAS7)    4.04 r         4.23           0.00    -0.19   INREG    func_typ
+reg_B_reg_0_/RB (DFFRBQX2TAS7)     4.04 r         4.23           0.00    -0.19   INREG    func_typ
+reg_B_reg_14_/RB (DFFRBQX2TAS7)    4.04 r         4.23           0.00    -0.19   INREG    func_typ
+reg_B_reg_15_/RB (DFFRBQX2TAS7)    4.04 r         4.23           0.00    -0.19   INREG    func_typ
+reg_B_reg_2_/RB (DFFRBQX4TAS7)     4.04 r         4.23           0.00    -0.19   INREG    func_typ
+reg_B_reg_4_/RB (DFFRBQX4TAS7)     4.04 r         4.23           0.00    -0.19   INREG    func_typ
+reg_B_reg_6_/RB (DFFRBQX4TAS7)     4.04 r         4.22           0.00    -0.19   INREG    func_typ
+reg_B_reg_10_/RB (DFFRBQX4TAS7)    4.04 r         4.22           0.00    -0.19   INREG    func_typ
+reg_B_reg_5_/RB (DFFRBQX4TAS7)     4.04 r         4.22           0.00    -0.19   INREG    func_typ
+reg_B_reg_1_/RB (DFFRBQX4TAS7)     4.04 r         4.22           0.00    -0.19   INREG    func_typ
+reg_B_reg_3_/RB (DFFRBQX4TAS7)     4.04 r         4.22           0.00    -0.19   INREG    func_typ
+reg_B_reg_9_/RB (DFFRBQX4TAS7)     4.04 r         4.22           0.00    -0.19   INREG    func_typ
+reg_B_reg_8_/RB (DFFRBQX4TAS7)     4.04 r         4.22           0.00    -0.19   INREG    func_typ
+reg_B_reg_7_/RB (DFFRBQX4TAS7)     4.04 r         4.23           0.00    -0.18   INREG    func_typ
+reg_B_reg_13_/RB (DFFRBQX4TAS7)    4.04 r         4.22           0.00    -0.18   INREG    func_typ
+
+   Mode: func Corner: typ
+   Scenario: func_typ
+  ---------------------------------------------------------------------------
+   Number of max_transition violation(s): 0
+
+   Mode: func Corner: typ
+   Scenario: func_typ
+  ---------------------------------------------------------------------------
+   Number of max_capacitance violation(s): 0
+
+
+   Mode: func Corner: typ
+   Scenario: func_typ
+  ---------------------------------------------------------------------------
+   Number of min_capacitance violation(s): 0
+
+  Mode: func
+  Corner: typ
+  Scenario: func_typ
+
+  ---------------------------------------------------------------------------
+   Number of min_pulse_width violation(s): 0
+   Total number of violation(s): 0
+1

@@ -1,0 +1,46 @@
+ 
+****************************************
+Report : area
+Design : alu_sync_top
+Version: X-2025.06-SP5-5
+Date   : Mon Oct 26 19:11:30 2026
+****************************************
+
+Library(s) Used:
+
+    M31LLSC750GL150MS_25CTT1P8_ctyp_nldm (File: /home/mpineda/libs/M31LLSC750GL150MS_00.01.000/nldm_db/M31LLSC750GL150MS_25CTT1P8_ctyp_nldm.db)
+
+Number of ports:                          227
+Number of nets:                          5446
+Number of cells:                         5234
+Number of combinational cells:           5144
+Number of sequential cells:                87
+Number of macros/black boxes:               0
+Number of buf/inv:                       1128
+Number of references:                       6
+
+Combinational area:              69550.387113
+Buf/Inv area:                     9557.452779
+Noncombinational area:            3396.556835
+Macro/Black Box area:                0.000000
+Net Interconnect area:      undefined  (Wire load has zero net area)
+
+Total cell area:                 72946.943948
+Total area:                 undefined
+
+Hierarchical area distribution
+------------------------------
+
+                                  Global cell area            Local cell area
+                                  -------------------  ----------------------------- 
+Hierarchical cell                 Absolute    Percent  Combi-      Noncombi-  Black-
+                                  Total       Total    national    national   boxes   Design
+--------------------------------  ----------  -------  ----------  ---------  ------  --------------------
+alu_sync_top                      72946.9439    100.0     25.8048  3035.2896  0.0000  alu_sync_top
+alu_inst                          69885.8495     95.8   2796.5952   361.2672  0.0000  alu_plus_WIDTH16
+alu_inst/adder_inst                1648.2816      2.3   1648.2816     0.0000  0.0000  prefix_adder_WIDTH16
+alu_inst/div_inst                 65079.7055     89.2  65079.7055     0.0000  0.0000  divider_hw_WIDTH16
+--------------------------------  ----------  -------  ----------  ---------  ------  --------------------
+Total                                                  69550.3871  3396.5568  0.0000
+
+1
