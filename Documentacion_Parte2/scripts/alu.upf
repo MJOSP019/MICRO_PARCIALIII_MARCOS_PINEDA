@@ -1,0 +1,9 @@
+# alu.upf - Intencion de potencia minima: un solo dominio con VDD / VSS
+create_power_domain TOP
+create_supply_port VDD
+create_supply_port VSS
+create_supply_net  VDD -domain TOP
+create_supply_net  VSS -domain TOP
+connect_supply_net VDD -ports VDD
+connect_supply_net VSS -ports VSS
+set_domain_supply_net TOP -primary_power_net VDD -primary_ground_net VSS

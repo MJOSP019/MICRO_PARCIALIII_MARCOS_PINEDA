@@ -1,0 +1,47 @@
+Command: /home/mpineda/parcial3_icc2/sim/./simv -l sim.log
+Chronologic VCS simulator copyright 1991-2025
+Contains Synopsys proprietary information.
+Compiler version X-2025.06-SP2-6_Full64; Runtime version X-2025.06-SP2-6_Full64;  Oct 26 20:38 2026
+*Verdi* Loading libsscore_vcs202506.so
+FSDB Dumper for VCS, Release Verdi_Y-2026.03-SP2, Linux x86_64/64bit, 08/29/2026
+(C) 1996 - 2026 by Synopsys, Inc.
+*Verdi* : Create FSDB file 'alu_sync_top.fsdb'
+*Verdi* : Begin traversing the scope (tb_alu_sync_top), layer (0).
+*Verdi* : End of traversing.
+OK    SUMA       A=150 B=50 -> 200  Flags NZCV=0000
+OK    RESTA      A=150 B=50 -> 100  Flags NZCV=0010
+OK    RESTA_NEG  A=50 B=100 -> 65486  Flags NZCV=1000
+OK    AND        A=65280 B=3855 -> 3840  Flags NZCV=0000
+OK    OR         A=65280 B=3855 -> 65295  Flags NZCV=1000
+OK    COCIENTE   A=200 B=3 -> 66  Flags NZCV=0010
+OK    RESIDUO    A=200 B=3 -> 2  Flags NZCV=0000
+OK    DIV_CERO   A=200 B=0 -> 65535  Flags NZCV=1010
+OK    CEROS      A=65535 B=65535 -> 0  Flags NZCV=0100
+OK    OVERFLOW   A=32767 B=1 -> 32768  Flags NZCV=1001
+OK    RANDOM     A=57875 B=11888 -> 4  Flags NZCV=0010
+OK    RANDOM     A=994 B=45719 -> 20811  Flags NZCV=0000
+OK    RANDOM     A=197 B=50924 -> 51121  Flags NZCV=1000
+OK    RANDOM     A=54284 B=11052 -> 65324  Flags NZCV=1000
+OK    RANDOM     A=2331 B=11845 -> 0  Flags NZCV=0100
+OK    RANDOM     A=52588 B=38759 -> 0  Flags NZCV=0111
+OK    RANDOM     A=23114 B=56486 -> 57070  Flags NZCV=1000
+OK    RANDOM     A=41117 B=18300 -> 59417  Flags NZCV=1000
+OK    RANDOM     A=10731 B=59227 -> 61435  Flags NZCV=1000
+OK    RANDOM     A=1613 B=42332 -> 1613  Flags NZCV=0000
+OK    RANDOM     A=2777 B=3241 -> 2185  Flags NZCV=0000
+OK    RANDOM     A=46750 B=11464 -> 4  Flags NZCV=0010
+OK    RANDOM     A=36902 B=22518 -> 59420  Flags NZCV=1000
+OK    RANDOM     A=37211 B=59458 -> 43289  Flags NZCV=1000
+OK    RANDOM     A=41361 B=42808 -> 0  Flags NZCV=0100
+OK    RANDOM     A=23917 B=35266 -> 54187  Flags NZCV=1001
+OK    RANDOM     A=24188 B=20270 -> 24446  Flags NZCV=0000
+OK    RANDOM     A=36893 B=10979 -> 0  Flags NZCV=0100
+OK    RANDOM     A=50186 B=6419 -> 2  Flags NZCV=0000
+OK    RANDOM     A=7228 B=17210 -> 24438  Flags NZCV=0000
+==== Simulacion terminada: 0 errores ====
+$finish called from file "../tb/tb_alu_sync_top.sv", line 75.
+$finish at simulation time               616000
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 616000 ps
+CPU Time:      0.340 seconds;       Data structure size:   0.0Mb
+Mon Oct 26 20:38:43 2026

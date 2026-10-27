@@ -1,0 +1,13 @@
+# Libreria M31LLSC750GL150MS (0.15um)
+set LIBDIR      "/home/mpineda/libs/M31LLSC750GL150MS_00.01.000/M31LLSC750GL150MS.0.01"
+set DB_SS       "/home/mpineda/libs/M31LLSC750GL150MS_00.01.000/nldm_db/M31LLSC750GL150MS_25CTT1P8_ctyp_nldm.db"
+set DB_FF       ""
+set TECH_FILE   "/home/mpineda/libs/M31LLSC750GL150MS_00.01.000/M31LLSC750GL150MS.0.01/milkyway_techfiles/tech/GL150M_5M1T_11K.tf"
+set TECH_LEF    "/home/mpineda/libs/M31LLSC750GL150MS_00.01.000/M31LLSC750GL150MS.0.01/lef_techfiles/tech/GL150M_5M1T_11K.lef"
+set CELL_LEF    "/home/mpineda/libs/M31LLSC750GL150MS_00.01.000/M31LLSC750GL150MS.0.01/lef/M31LLSC750GL150MS.lef"
+set GDS_MAP     "/home/mpineda/libs/M31LLSC750GL150MS_00.01.000/M31LLSC750GL150MS.0.01/milkyway_techfiles/map/gds2OutLayer.map"
+set NDM_LIB     "/home/mpineda/parcial3_icc2/ndm/M31LLSC750GL150MS.ndm"
+set TLUPLUS_MAX "/home/mpineda/parcial3_icc2/tlu/gl150_estimado.tluplus"
+set TLUPLUS_MIN "/home/mpineda/parcial3_icc2/tlu/gl150_estimado.tluplus"
+set MAP_FILE    "/home/mpineda/parcial3_icc2/tlu/gl150.map"
+set GDS_STDCELL ""
