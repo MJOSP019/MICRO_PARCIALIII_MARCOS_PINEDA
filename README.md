@@ -14,11 +14,7 @@
 
 | Inciso | Video |
 |---|---|
-| Parte 1 — ALU+ en SystemVerilog, simulación y análisis en Vivado | **[Ver video (YouTube)](https://www.youtube.com/watch?v=1h812HtGHYY)** |
-| Parte 2.1 — Sistema síncrono, VCS y Verdi | _[enlace de YouTube]_ |
-| Parte 2.2 — Síntesis con Design Compiler | _[enlace de YouTube]_ |
-| Parte 2.3 — Diseño físico con IC Compiler II | _[enlace de YouTube]_ |
-| Parte 2.4 — Resultados y GDSII | _[enlace de YouTube]_ |
+| ALU+ en SystemVerilog, simulación y análisis en Vivado | **[Ver video (YouTube)](https://www.youtube.com/watch?v=1h812HtGHYY)** |
 
 ---
 
